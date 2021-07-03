@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+/* @font-face {
+    font-family: 'Montserrat';
+    src: url();
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4EADE;
+    font-family:'Roboto', sans-serif;
+    color: gray;
+}
+ h1{
+     width: 1100px;
+     margin: 0 auto;
+ }
+
+.formulario{
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.campos-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 25px;
+}
+
+
+
+.formulario input{
+    height: 35px;
+    font-size: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+.linha-botoes{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.formulario button{
+    height: 35px;
+    font-family:'Roboto', sans-serif; ;
+    font-size: 18px;
+    background-color:rgb(#AAAA);
+    width: 130px;
+    border: 1ps solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+table{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: solid 1px gray;
+} 
+tr{
+    height: 35px;
+}
+
+tbody tr{
+    background-color: white;
+}
+
+tbody tr:nth-child(even){
+   background-color: #f6d6a8;
+}
+
+tbody{
+    border: solid 1px grey;
+}
+
+th{
+    background-color: grey;
+    color: #F4EADE;
+}

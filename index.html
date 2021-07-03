@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <h1>Cadastro IMC</h1>
+    <form action="" class="formulario">
+        <fieldset class="campos-form">
+
+            
+        <legend>Cadastro</legend>
+
+        <label for="nome">Nome Completo</label>
+        <input type="text" class="name" name="nome" id="nome" placeholder="Nome...">
+
+            <label for="altura">Altura:</label>
+        <input type="number" class="altura" name="altura" id="altura" step="0.01" min="1" placeholder="Insira sua altura (Ex: 1.64)">
+
+            <label for="peso">Peso:</label>
+        <input type="number" class="peso" name="peso" id="peso" step="0.01"  min="1" placeholder="Insira sue peso (Ex: 60Kg)">
+
+        
+        <div class="linha-botoes">
+        <button type="button" onclick="limparFormulario()">Limpar</button>
+        <button type="button" onclick="calcular()">Caulcular</button>
+        </div>     
+        </fieldset>
+
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Altura</th>
+                <th>Peso</th>
+                <th>IMC</th>
+                <th>Situação</th>
+            </tr>
+        </thead>
+
+        <tbody id="corpo-tabela">
+
+        </tbody>     
+    </table>
+    
+</body>
+</html>
